@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,11 +30,128 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    <div class="container flex">
       <!-- Timeblocks go here -->
+      <div class="row time-block description">
+        <div class="col-1 hour">
+          9am
+        </div>
+        <div class="col-10">
+          <textarea class="w-100 mt-0 " id="hour9"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block description">
+        <div class="col-1 hour">
+          10am
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour10"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          11am
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour11"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          12pm
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour12"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          1pm
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour13"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          2pm
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour14"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          3pm
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour15"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          4pm
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour16"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row time-block mb-0 mt-0">
+        <div class="col-1 hour">
+          5pm
+        </div>
+        <div class="col-10">
+          <textarea class="w-100" id="hour17"></textarea>
+        </div>
+        <div class="col-1">
+          <button class="saveBtn">
+            <i class="fa-regular fa-floppy-disk"></i>
+          </button>
+        </div>
+      </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
