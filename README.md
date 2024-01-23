@@ -39,6 +39,8 @@ The following animation demonstrates the application functionality:
 
 * The URL of the deployed application
 
+https://bweb85.github.io/dailyPlanner/
+
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
 https://github.com/bweb85/dailyPlanner 
